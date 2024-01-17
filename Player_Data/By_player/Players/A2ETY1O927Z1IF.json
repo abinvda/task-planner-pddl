@@ -1,0 +1,1267 @@
+{
+    "worker": "A2ETY1O927Z1IF",
+    "solutions": [
+        {
+            "level_name": "config_B3_C8_P3_D2_97",
+            "freeze_probe_index": 11,
+            "plan": [
+                {
+                    "idx": 0,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 1,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 2,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 3,
+                    "action": "place_component GreenSmallTriangle 2 1"
+                },
+                {
+                    "idx": 4,
+                    "action": "place_component GreenSmallTriangle 3 1"
+                },
+                {
+                    "idx": 5,
+                    "action": "move_from_station ContainerGreenTriangle Final"
+                },
+                {
+                    "idx": 6,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 7,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 8,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 9,
+                    "action": "place_component RedSmallCircle 1 1"
+                },
+                {
+                    "idx": 10,
+                    "action": "place_component RedSmallCircle 3 2"
+                },
+                {
+                    "idx": 11,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 12,
+                    "action": "place_component RedSmallCircle 2 2"
+                },
+                {
+                    "idx": 13,
+                    "action": "move_from_station ContainerRedCircle Middle"
+                },
+                {
+                    "idx": 14,
+                    "action": "move_to_station ContainerBlueSquare stat1"
+                },
+                {
+                    "idx": 15,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 16,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 17,
+                    "action": "place_component BlueSmallSquare 2 3"
+                },
+                {
+                    "idx": 18,
+                    "action": "place_component BlueSmallSquare 1 2"
+                },
+                {
+                    "idx": 19,
+                    "action": "move_from_station ContainerBlueSquare Initial"
+                },
+                {
+                    "idx": 20,
+                    "action": "movebox ContainerBlueSquare ContainerRedCircle"
+                },
+                {
+                    "idx": 21,
+                    "action": "movebox ContainerBlueSquare Initial"
+                },
+                {
+                    "idx": 22,
+                    "action": "movebox ContainerRedCircle ContainerBlueSquare"
+                },
+                {
+                    "idx": 23,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 24,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 25,
+                    "action": "error_action"
+                },
+                {
+                    "idx": 26,
+                    "action": "move_from_station ContainerGreenTriangle ContainerRedCircle"
+                },
+                {
+                    "idx": 27,
+                    "action": "place_component GreenSmallTriangle 1 3"
+                },
+                {
+                    "idx": 28,
+                    "action": "redundant_action"
+                }
+            ]
+        },
+        {
+            "level_name": "config_B4_C12_P3_D2_69",
+            "freeze_probe_index": null,
+            "plan": [
+                {
+                    "idx": 0,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 1,
+                    "action": "movebox ContainerRedCircle Final"
+                },
+                {
+                    "idx": 2,
+                    "action": "movebox ContainerBlueSquare Middle"
+                },
+                {
+                    "idx": 3,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 4,
+                    "action": "place_component YellowSmallCircle 1 1"
+                },
+                {
+                    "idx": 5,
+                    "action": "error_action"
+                },
+                {
+                    "idx": 6,
+                    "action": "move_from_station ContainerYellowCircle ContainerRedCircle"
+                },
+                {
+                    "idx": 7,
+                    "action": "move_to_station ContainerBlueSquare stat1"
+                },
+                {
+                    "idx": 8,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 9,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 10,
+                    "action": "place_component BlueSmallSquare 3 1"
+                },
+                {
+                    "idx": 11,
+                    "action": "place_component BlueSmallSquare 2 1"
+                },
+                {
+                    "idx": 12,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 13,
+                    "action": "place_component BlueSmallSquare 1 2"
+                },
+                {
+                    "idx": 14,
+                    "action": "error_action"
+                },
+                {
+                    "idx": 15,
+                    "action": "move_from_station ContainerBlueSquare Middle"
+                },
+                {
+                    "idx": 16,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 17,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 18,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 19,
+                    "action": "place_component GreenSmallTriangle 2 2"
+                },
+                {
+                    "idx": 20,
+                    "action": "place_component GreenSmallTriangle 1 3"
+                },
+                {
+                    "idx": 21,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 22,
+                    "action": "place_component GreenSmallTriangle 2 3"
+                },
+                {
+                    "idx": 23,
+                    "action": "move_from_station ContainerGreenTriangle Initial"
+                },
+                {
+                    "idx": 24,
+                    "action": "movebox ContainerBlueSquare ContainerGreenTriangle"
+                },
+                {
+                    "idx": 25,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 26,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 27,
+                    "action": "place_component YellowSmallCircle 2 4"
+                },
+                {
+                    "idx": 28,
+                    "action": "error_action"
+                },
+                {
+                    "idx": 29,
+                    "action": "error_action"
+                },
+                {
+                    "idx": 30,
+                    "action": "move_from_station ContainerYellowCircle Middle"
+                },
+                {
+                    "idx": 31,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 32,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 33,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 34,
+                    "action": "place_component RedSmallCircle 1 4"
+                },
+                {
+                    "idx": 35,
+                    "action": "place_component RedSmallCircle 3 2"
+                },
+                {
+                    "idx": 36,
+                    "action": "move_from_station ContainerRedCircle Final"
+                },
+                {
+                    "idx": 37,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 38,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 39,
+                    "action": "move_from_station ContainerYellowCircle ContainerBlueSquare"
+                },
+                {
+                    "idx": 40,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 41,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 42,
+                    "action": "place_component YellowSmallCircle 3 3"
+                },
+                {
+                    "idx": 43,
+                    "action": "place_component RedSmallCircle 3 4"
+                },
+                {
+                    "idx": 44,
+                    "action": "move_from_station ContainerRedCircle ContainerYellowCircle"
+                },
+                {
+                    "idx": 45,
+                    "action": "redundant_action"
+                }
+            ]
+        },
+        {
+            "level_name": "config_B4_C12_P2_D1_46",
+            "freeze_probe_index": 16,
+            "plan": [
+                {
+                    "idx": 0,
+                    "action": "movebox ContainerYellowCircle Middle"
+                },
+                {
+                    "idx": 1,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 2,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 3,
+                    "action": "place_component RedSmallCircle 2 1"
+                },
+                {
+                    "idx": 4,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 5,
+                    "action": "place_component RedSmallCircle 2 2"
+                },
+                {
+                    "idx": 6,
+                    "action": "move_from_station ContainerRedCircle ContainerYellowCircle"
+                },
+                {
+                    "idx": 7,
+                    "action": "move_to_station ContainerBlueSquare stat1"
+                },
+                {
+                    "idx": 8,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 9,
+                    "action": "place_component BlueSmallSquare 1 1"
+                },
+                {
+                    "idx": 10,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 11,
+                    "action": "place_component BlueSmallSquare 2 3"
+                },
+                {
+                    "idx": 12,
+                    "action": "move_from_station ContainerBlueSquare ContainerRedCircle"
+                },
+                {
+                    "idx": 13,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 14,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 15,
+                    "action": "place_component GreenSmallTriangle 3 1"
+                },
+                {
+                    "idx": 16,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 17,
+                    "action": "place_component GreenSmallTriangle 2 4"
+                },
+                {
+                    "idx": 18,
+                    "action": "move_from_station ContainerGreenTriangle Initial"
+                },
+                {
+                    "idx": 19,
+                    "action": "movebox ContainerBlueSquare ContainerGreenTriangle"
+                },
+                {
+                    "idx": 20,
+                    "action": "movebox ContainerRedCircle ContainerBlueSquare"
+                },
+                {
+                    "idx": 21,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 22,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 23,
+                    "action": "place_component YellowSmallCircle 1 2"
+                },
+                {
+                    "idx": 24,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 25,
+                    "action": "place_component YellowSmallCircle 1 3"
+                },
+                {
+                    "idx": 26,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 27,
+                    "action": "place_component YellowSmallCircle 3 2"
+                },
+                {
+                    "idx": 28,
+                    "action": "move_from_station ContainerYellowCircle Middle"
+                },
+                {
+                    "idx": 29,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 30,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 31,
+                    "action": "place_component RedSmallCircle 3 3"
+                },
+                {
+                    "idx": 32,
+                    "action": "move_from_station ContainerRedCircle ContainerYellowCircle"
+                },
+                {
+                    "idx": 33,
+                    "action": "move_to_station ContainerBlueSquare stat1"
+                },
+                {
+                    "idx": 34,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 35,
+                    "action": "move_from_station ContainerBlueSquare ContainerRedCircle"
+                },
+                {
+                    "idx": 36,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 37,
+                    "action": "error_action"
+                },
+                {
+                    "idx": 38,
+                    "action": "place_component BlueSmallSquare 1 4"
+                },
+                {
+                    "idx": 39,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 40,
+                    "action": "place_component GreenSmallTriangle 3 4"
+                },
+                {
+                    "idx": 41,
+                    "action": "move_from_station ContainerGreenTriangle Initial"
+                },
+                {
+                    "idx": 42,
+                    "action": "movebox ContainerBlueSquare ContainerGreenTriangle"
+                },
+                {
+                    "idx": 43,
+                    "action": "movebox ContainerRedCircle ContainerBlueSquare"
+                },
+                {
+                    "idx": 44,
+                    "action": "movebox ContainerYellowCircle ContainerRedCircle"
+                },
+                {
+                    "idx": 45,
+                    "action": "redundant_action"
+                }
+            ]
+        },
+        {
+            "level_name": "config_B4_C12_P2_D1_29",
+            "freeze_probe_index": null,
+            "plan": [
+                {
+                    "idx": 0,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 1,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 2,
+                    "action": "place_component RedSmallCircle 2 1"
+                },
+                {
+                    "idx": 3,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 4,
+                    "action": "place_component RedSmallCircle 3 1"
+                },
+                {
+                    "idx": 5,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 6,
+                    "action": "place_component RedSmallCircle 3 2"
+                },
+                {
+                    "idx": 7,
+                    "action": "move_from_station ContainerRedCircle Middle"
+                },
+                {
+                    "idx": 8,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 9,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 10,
+                    "action": "place_component YellowSmallCircle 1 1"
+                },
+                {
+                    "idx": 11,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 12,
+                    "action": "place_component YellowSmallCircle 2 2"
+                },
+                {
+                    "idx": 13,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 14,
+                    "action": "place_component YellowSmallCircle 2 3"
+                },
+                {
+                    "idx": 15,
+                    "action": "grid_to_grid 3 2 2 4"
+                },
+                {
+                    "idx": 16,
+                    "action": "move_from_station ContainerYellowCircle ContainerRedCircle"
+                },
+                {
+                    "idx": 17,
+                    "action": "movebox ContainerGreenTriangle ContainerYellowCircle"
+                },
+                {
+                    "idx": 18,
+                    "action": "move_to_station ContainerBlueSquare stat1"
+                },
+                {
+                    "idx": 19,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 20,
+                    "action": "place_component BlueSmallSquare 1 2"
+                },
+                {
+                    "idx": 21,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 22,
+                    "action": "place_component BlueSmallSquare 3 2"
+                },
+                {
+                    "idx": 23,
+                    "action": "grid_to_grid 2 4 1 3"
+                },
+                {
+                    "idx": 24,
+                    "action": "grid_to_grid 2 3 3 3"
+                },
+                {
+                    "idx": 25,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 26,
+                    "action": "place_component BlueSmallSquare 3 4"
+                },
+                {
+                    "idx": 27,
+                    "action": "move_from_station ContainerBlueSquare Initial"
+                },
+                {
+                    "idx": 28,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 29,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 30,
+                    "action": "place_component GreenSmallTriangle 1 4"
+                },
+                {
+                    "idx": 31,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 32,
+                    "action": "place_component GreenSmallTriangle 2 3"
+                },
+                {
+                    "idx": 33,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 34,
+                    "action": "place_component GreenSmallTriangle 2 4"
+                },
+                {
+                    "idx": 35,
+                    "action": "move_from_station ContainerGreenTriangle ContainerBlueSquare"
+                },
+                {
+                    "idx": 36,
+                    "action": "movebox ContainerYellowCircle ContainerGreenTriangle"
+                },
+                {
+                    "idx": 37,
+                    "action": "movebox ContainerRedCircle ContainerYellowCircle"
+                },
+                {
+                    "idx": 38,
+                    "action": "redundant_action"
+                }
+            ]
+        },
+        {
+            "level_name": "config_B5_C14_P3_D2_17",
+            "freeze_probe_index": null,
+            "plan": [
+                {
+                    "idx": 0,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 1,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 2,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 3,
+                    "action": "place_component GreenSmallTriangle 3 1"
+                },
+                {
+                    "idx": 4,
+                    "action": "place_component GreenSmallTriangle 3 2"
+                },
+                {
+                    "idx": 5,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 6,
+                    "action": "place_component GreenSmallTriangle 3 3"
+                },
+                {
+                    "idx": 7,
+                    "action": "move_from_station ContainerGreenTriangle Final"
+                },
+                {
+                    "idx": 8,
+                    "action": "move_to_station ContainerRedTriangle stat1"
+                },
+                {
+                    "idx": 9,
+                    "action": "unlock_component ContainerRedTriangle RedSmallTriangle"
+                },
+                {
+                    "idx": 10,
+                    "action": "place_component RedSmallTriangle 2 1"
+                },
+                {
+                    "idx": 11,
+                    "action": "unlock_component ContainerRedTriangle RedSmallTriangle"
+                },
+                {
+                    "idx": 12,
+                    "action": "place_component RedSmallTriangle 2 2"
+                },
+                {
+                    "idx": 13,
+                    "action": "move_from_station ContainerRedTriangle ContainerGreenTriangle"
+                },
+                {
+                    "idx": 14,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 15,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 16,
+                    "action": "place_component YellowSmallCircle 1 1"
+                },
+                {
+                    "idx": 17,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 18,
+                    "action": "place_component YellowSmallCircle 3 4"
+                },
+                {
+                    "idx": 19,
+                    "action": "move_from_station ContainerYellowCircle Middle"
+                },
+                {
+                    "idx": 20,
+                    "action": "move_to_station ContainerBlueSquare stat1"
+                },
+                {
+                    "idx": 21,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 22,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 23,
+                    "action": "place_component BlueSmallSquare 1 2"
+                },
+                {
+                    "idx": 24,
+                    "action": "grid_to_grid 2 2 1 3"
+                },
+                {
+                    "idx": 25,
+                    "action": "place_component BlueSmallSquare 2 2"
+                },
+                {
+                    "idx": 26,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 27,
+                    "action": "move_from_station ContainerBlueSquare ContainerRedTriangle"
+                },
+                {
+                    "idx": 28,
+                    "action": "place_component BlueSmallSquare 4 1"
+                },
+                {
+                    "idx": 29,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 30,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 31,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 32,
+                    "action": "place_component RedSmallCircle 1 4"
+                },
+                {
+                    "idx": 33,
+                    "action": "place_component RedSmallCircle 2 3"
+                },
+                {
+                    "idx": 34,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 35,
+                    "action": "place_component RedSmallCircle 4 2"
+                },
+                {
+                    "idx": 36,
+                    "action": "move_from_station ContainerRedCircle Initial"
+                },
+                {
+                    "idx": 37,
+                    "action": "movebox ContainerBlueSquare ContainerRedCircle"
+                },
+                {
+                    "idx": 38,
+                    "action": "movebox ContainerRedTriangle ContainerBlueSquare"
+                },
+                {
+                    "idx": 39,
+                    "action": "movebox ContainerGreenTriangle ContainerRedTriangle"
+                },
+                {
+                    "idx": 40,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 41,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 42,
+                    "action": "place_component YellowSmallCircle 2 4"
+                },
+                {
+                    "idx": 43,
+                    "action": "move_from_station ContainerYellowCircle ContainerGreenTriangle"
+                },
+                {
+                    "idx": 44,
+                    "action": "redundant_action"
+                }
+            ]
+        },
+        {
+            "level_name": "config_B5_C14_P2_D1_19",
+            "freeze_probe_index": 19,
+            "plan": [
+                {
+                    "idx": 0,
+                    "action": "move_to_station ContainerBlueSquare stat1"
+                },
+                {
+                    "idx": 1,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 2,
+                    "action": "place_component BlueSmallSquare 3 1"
+                },
+                {
+                    "idx": 3,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 4,
+                    "action": "place_component BlueSmallSquare 3 2"
+                },
+                {
+                    "idx": 5,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 6,
+                    "action": "place_component BlueSmallSquare 3 3"
+                },
+                {
+                    "idx": 7,
+                    "action": "move_from_station ContainerBlueSquare Middle"
+                },
+                {
+                    "idx": 8,
+                    "action": "move_to_station ContainerRedTriangle stat1"
+                },
+                {
+                    "idx": 9,
+                    "action": "unlock_component ContainerRedTriangle RedSmallTriangle"
+                },
+                {
+                    "idx": 10,
+                    "action": "place_component RedSmallTriangle 1 1"
+                },
+                {
+                    "idx": 11,
+                    "action": "grid_to_grid 3 3 1 2"
+                },
+                {
+                    "idx": 12,
+                    "action": "grid_to_grid 3 2 1 3"
+                },
+                {
+                    "idx": 13,
+                    "action": "unlock_component ContainerRedTriangle RedSmallTriangle"
+                },
+                {
+                    "idx": 14,
+                    "action": "move_from_station ContainerRedTriangle ContainerBlueSquare"
+                },
+                {
+                    "idx": 15,
+                    "action": "place_component RedSmallTriangle 1 4"
+                },
+                {
+                    "idx": 16,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 17,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 18,
+                    "action": "place_component RedSmallCircle 4 1"
+                },
+                {
+                    "idx": 19,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 20,
+                    "action": "place_component RedSmallCircle 3 2"
+                },
+                {
+                    "idx": 21,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 22,
+                    "action": "place_component RedSmallCircle 3 3"
+                },
+                {
+                    "idx": 23,
+                    "action": "move_from_station ContainerRedCircle ContainerRedTriangle"
+                },
+                {
+                    "idx": 24,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 25,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 26,
+                    "action": "place_component YellowSmallCircle 2 1"
+                },
+                {
+                    "idx": 27,
+                    "action": "grid_to_grid 1 4 2 2"
+                },
+                {
+                    "idx": 28,
+                    "action": "grid_to_grid 3 3 2 3"
+                },
+                {
+                    "idx": 29,
+                    "action": "grid_to_grid 3 2 2 4"
+                },
+                {
+                    "idx": 30,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 31,
+                    "action": "place_component YellowSmallCircle 4 2"
+                },
+                {
+                    "idx": 32,
+                    "action": "grid_to_grid 3 1 4 3"
+                },
+                {
+                    "idx": 33,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 34,
+                    "action": "move_from_station ContainerYellowCircle ContainerRedCircle"
+                },
+                {
+                    "idx": 35,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 36,
+                    "action": "place_component YellowSmallCircle 4 4"
+                },
+                {
+                    "idx": 37,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 38,
+                    "action": "place_component GreenSmallTriangle 1 4"
+                },
+                {
+                    "idx": 39,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 40,
+                    "action": "place_component GreenSmallTriangle 3 1"
+                },
+                {
+                    "idx": 41,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 42,
+                    "action": "place_component GreenSmallTriangle 3 2"
+                },
+                {
+                    "idx": 43,
+                    "action": "grid_to_grid 4 4 3 3"
+                },
+                {
+                    "idx": 44,
+                    "action": "grid_to_grid 4 3 3 4"
+                },
+                {
+                    "idx": 45,
+                    "action": "move_from_station ContainerGreenTriangle Initial"
+                },
+                {
+                    "idx": 46,
+                    "action": "movebox ContainerYellowCircle ContainerGreenTriangle"
+                },
+                {
+                    "idx": 47,
+                    "action": "movebox ContainerRedCircle ContainerYellowCircle"
+                },
+                {
+                    "idx": 48,
+                    "action": "movebox ContainerRedTriangle ContainerRedCircle"
+                },
+                {
+                    "idx": 49,
+                    "action": "movebox ContainerBlueSquare ContainerRedTriangle"
+                },
+                {
+                    "idx": 50,
+                    "action": "redundant_action"
+                }
+            ]
+        },
+        {
+            "level_name": "config_B5_C14_P2_D1_20",
+            "freeze_probe_index": 19,
+            "plan": [
+                {
+                    "idx": 0,
+                    "action": "move_to_station ContainerGreenTriangle stat1"
+                },
+                {
+                    "idx": 1,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 2,
+                    "action": "place_component GreenSmallTriangle 2 1"
+                },
+                {
+                    "idx": 3,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 4,
+                    "action": "place_component GreenSmallTriangle 4 1"
+                },
+                {
+                    "idx": 5,
+                    "action": "unlock_component ContainerGreenTriangle GreenSmallTriangle"
+                },
+                {
+                    "idx": 6,
+                    "action": "place_component GreenSmallTriangle 2 2"
+                },
+                {
+                    "idx": 7,
+                    "action": "move_from_station ContainerGreenTriangle Middle"
+                },
+                {
+                    "idx": 8,
+                    "action": "move_to_station ContainerBlueSquare stat1"
+                },
+                {
+                    "idx": 9,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 10,
+                    "action": "place_component BlueSmallSquare 3 1"
+                },
+                {
+                    "idx": 11,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 12,
+                    "action": "place_component BlueSmallSquare 1 1"
+                },
+                {
+                    "idx": 13,
+                    "action": "unlock_component ContainerBlueSquare BlueSmallSquare"
+                },
+                {
+                    "idx": 14,
+                    "action": "place_component BlueSmallSquare 2 3"
+                },
+                {
+                    "idx": 15,
+                    "action": "move_from_station ContainerBlueSquare ContainerGreenTriangle"
+                },
+                {
+                    "idx": 16,
+                    "action": "move_to_station ContainerYellowCircle stat1"
+                },
+                {
+                    "idx": 17,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 18,
+                    "action": "place_component YellowSmallCircle 4 2"
+                },
+                {
+                    "idx": 19,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 20,
+                    "action": "place_component YellowSmallCircle 4 3"
+                },
+                {
+                    "idx": 21,
+                    "action": "unlock_component ContainerYellowCircle YellowSmallCircle"
+                },
+                {
+                    "idx": 22,
+                    "action": "place_component YellowSmallCircle 4 4"
+                },
+                {
+                    "idx": 23,
+                    "action": "move_from_station ContainerYellowCircle ContainerBlueSquare"
+                },
+                {
+                    "idx": 24,
+                    "action": "move_to_station ContainerRedCircle stat1"
+                },
+                {
+                    "idx": 25,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 26,
+                    "action": "place_component RedSmallCircle 1 2"
+                },
+                {
+                    "idx": 27,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 28,
+                    "action": "place_component RedSmallCircle 1 3"
+                },
+                {
+                    "idx": 29,
+                    "action": "grid_to_grid 2 3 1 4"
+                },
+                {
+                    "idx": 30,
+                    "action": "grid_to_grid 2 2 3 2"
+                },
+                {
+                    "idx": 31,
+                    "action": "unlock_component ContainerRedCircle RedSmallCircle"
+                },
+                {
+                    "idx": 32,
+                    "action": "place_component RedSmallCircle 2 2"
+                },
+                {
+                    "idx": 33,
+                    "action": "move_from_station ContainerRedCircle ContainerYellowCircle"
+                },
+                {
+                    "idx": 34,
+                    "action": "move_to_station ContainerRedTriangle stat1"
+                },
+                {
+                    "idx": 35,
+                    "action": "unlock_component ContainerRedTriangle RedSmallTriangle"
+                },
+                {
+                    "idx": 36,
+                    "action": "place_component RedSmallTriangle 2 3"
+                },
+                {
+                    "idx": 37,
+                    "action": "grid_to_grid 3 2 2 4"
+                },
+                {
+                    "idx": 38,
+                    "action": "unlock_component ContainerRedTriangle RedSmallTriangle"
+                },
+                {
+                    "idx": 39,
+                    "action": "place_component RedSmallTriangle 3 2"
+                },
+                {
+                    "idx": 40,
+                    "action": "move_from_station ContainerRedTriangle Initial"
+                },
+                {
+                    "idx": 41,
+                    "action": "movebox ContainerRedCircle ContainerRedTriangle"
+                },
+                {
+                    "idx": 42,
+                    "action": "movebox ContainerYellowCircle ContainerRedCircle"
+                },
+                {
+                    "idx": 43,
+                    "action": "movebox ContainerBlueSquare ContainerYellowCircle"
+                },
+                {
+                    "idx": 44,
+                    "action": "movebox ContainerGreenTriangle ContainerBlueSquare"
+                },
+                {
+                    "idx": 45,
+                    "action": "grid_to_grid 2 4 3 3"
+                },
+                {
+                    "idx": 46,
+                    "action": "grid_to_grid 4 4 2 4"
+                },
+                {
+                    "idx": 47,
+                    "action": "grid_to_grid 4 3 3 4"
+                },
+                {
+                    "idx": 48,
+                    "action": "redundant_action"
+                }
+            ]
+        }
+    ]
+}

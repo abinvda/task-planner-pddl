@@ -1,0 +1,391 @@
+{
+    "Platforms": 2,
+    "Displays": 1,
+    "GridSize": {
+        "x": 4,
+        "y": 4
+    },
+    "Containers": [
+        {
+            "name": "box_tri",
+            "count": 3,
+            "components": [
+                {
+                    "name": "triangle",
+                    "target": [
+                        [
+                            1,
+                            4
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "box_cir_2",
+            "count": 3,
+            "components": [
+                {
+                    "name": "circle_2",
+                    "target": [
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            3,
+                            3
+                        ],
+                        [
+                            4,
+                            2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "box_cir",
+            "count": 3,
+            "components": [
+                {
+                    "name": "circle",
+                    "target": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            4
+                        ],
+                        [
+                            4,
+                            1
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "box_tri_2",
+            "count": 2,
+            "components": [
+                {
+                    "name": "triangle_2",
+                    "target": [
+                        [
+                            1,
+                            1
+                        ],
+                        [
+                            2,
+                            2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "box_sqr",
+            "count": 3,
+            "components": [
+                {
+                    "name": "square",
+                    "target": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            3,
+                            4
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "Plan": [
+        [
+            "move_to_station",
+            "box_tri",
+            "stat1"
+        ],
+        [
+            "movebox",
+            "box_cir_2",
+            "II"
+        ],
+        [
+            "unlock_component",
+            "box_tri",
+            "triangle"
+        ],
+        [
+            "place_component",
+            "triangle",
+            3,
+            1
+        ],
+        [
+            "unlock_component",
+            "box_tri",
+            "triangle"
+        ],
+        [
+            "move_from_station",
+            "box_tri",
+            "box_cir_2"
+        ],
+        [
+            "move_to_station",
+            "box_cir",
+            "stat1"
+        ],
+        [
+            "place_component",
+            "triangle",
+            3,
+            2
+        ],
+        [
+            "unlock_component",
+            "box_cir",
+            "circle"
+        ],
+        [
+            "move_from_station",
+            "box_cir",
+            "box_tri_2"
+        ],
+        [
+            "movebox",
+            "box_tri",
+            "box_cir"
+        ],
+        [
+            "move_to_station",
+            "box_cir_2",
+            "stat1"
+        ],
+        [
+            "movebox",
+            "box_tri",
+            "II"
+        ],
+        [
+            "movebox",
+            "box_cir",
+            "box_tri"
+        ],
+        [
+            "place_component",
+            "circle",
+            4,
+            1
+        ],
+        [
+            "unlock_component",
+            "box_cir_2",
+            "circle_2"
+        ],
+        [
+            "place_component",
+            "circle_2",
+            4,
+            2
+        ],
+        [
+            "unlock_component",
+            "box_cir_2",
+            "circle_2"
+        ],
+        [
+            "place_component",
+            "circle_2",
+            2,
+            1
+        ],
+        [
+            "unlock_component",
+            "box_cir_2",
+            "circle_2"
+        ],
+        [
+            "place_component",
+            "circle_2",
+            3,
+            3
+        ],
+        [
+            "move_from_station",
+            "box_cir_2",
+            "box_cir"
+        ],
+        [
+            "move_to_station",
+            "box_tri_2",
+            "stat1"
+        ],
+        [
+            "unlock_component",
+            "box_tri_2",
+            "triangle_2"
+        ],
+        [
+            "place_component",
+            "triangle_2",
+            1,
+            1
+        ],
+        [
+            "unlock_component",
+            "box_tri_2",
+            "triangle_2"
+        ],
+        [
+            "place_component",
+            "triangle_2",
+            2,
+            2
+        ],
+        [
+            "move_from_station",
+            "box_tri_2",
+            "box_cir_2"
+        ],
+        [
+            "move_to_station",
+            "box_sqr",
+            "stat1"
+        ],
+        [
+            "movebox",
+            "box_tri_2",
+            "I"
+        ],
+        [
+            "unlock_component",
+            "box_sqr",
+            "square"
+        ],
+        [
+            "movebox",
+            "box_cir_2",
+            "box_tri_2"
+        ],
+        [
+            "place_component",
+            "square",
+            1,
+            2
+        ],
+        [
+            "unlock_component",
+            "box_sqr",
+            "square"
+        ],
+        [
+            "place_component",
+            "square",
+            1,
+            3
+        ],
+        [
+            "unlock_component",
+            "box_sqr",
+            "square"
+        ],
+        [
+            "move_from_station",
+            "box_sqr",
+            "box_cir_2"
+        ],
+        [
+            "move_to_station",
+            "box_cir",
+            "stat1"
+        ],
+        [
+            "place_component",
+            "square",
+            3,
+            4
+        ],
+        [
+            "unlock_component",
+            "box_cir",
+            "circle"
+        ],
+        [
+            "place_component",
+            "circle",
+            2,
+            3
+        ],
+        [
+            "unlock_component",
+            "box_cir",
+            "circle"
+        ],
+        [
+            "place_component",
+            "circle",
+            2,
+            4
+        ],
+        [
+            "move_from_station",
+            "box_cir",
+            "box_sqr"
+        ],
+        [
+            "move_to_station",
+            "box_tri",
+            "stat1"
+        ],
+        [
+            "unlock_component",
+            "box_tri",
+            "triangle"
+        ],
+        [
+            "move_from_station",
+            "box_tri",
+            "box_cir"
+        ],
+        [
+            "place_component",
+            "triangle",
+            1,
+            4
+        ]
+    ],
+    "Plan_length": 48,
+    "ResourceUse": {
+        "Avg_redundancy": 0.625,
+        "PlatformUse": {
+            "stat1": 39,
+            "I": 47,
+            "II": 42
+        },
+        "DisplayUse": {
+            "0": 23,
+            "1": 25
+        }
+    },
+    "StatesExplored": 4257
+}

@@ -1,0 +1,248 @@
+{
+    "worker_data": [
+        {
+            "worker_name": "A260V12ZXROJKR",
+            "num_actions": 27,
+            "estimated_beta": -2.7999999999999994,
+            "estimated_num_actions": [
+                29.24,
+                2.433598159105155
+            ]
+        },
+        {
+            "worker_name": "A9HQ3E0F2AGVO",
+            "num_actions": 32,
+            "estimated_beta": -2.3,
+            "estimated_num_actions": [
+                34.65,
+                4.409931972264425
+            ]
+        },
+        {
+            "worker_name": "A212OY08MFDGU3",
+            "num_actions": 30,
+            "estimated_beta": -2.3,
+            "estimated_num_actions": [
+                34.48,
+                4.435042277137841
+            ]
+        },
+        {
+            "worker_name": "A17PAQSQ74L915",
+            "num_actions": 24,
+            "estimated_beta": -4.899999999999999,
+            "estimated_num_actions": [
+                24.76,
+                0.9499473669630334
+            ]
+        },
+        {
+            "worker_name": "AO33H4GL9KZX9",
+            "num_actions": 35,
+            "estimated_beta": -2.0999999999999996,
+            "estimated_num_actions": [
+                37.27,
+                5.360699581211393
+            ]
+        },
+        {
+            "worker_name": "A272X64FOZFYLB",
+            "num_actions": 26,
+            "estimated_beta": -3.2999999999999994,
+            "estimated_num_actions": [
+                27.06,
+                1.9688575367456123
+            ]
+        },
+        {
+            "worker_name": "A2DWSKGD9RNKMJ",
+            "num_actions": 27,
+            "estimated_beta": -2.8999999999999995,
+            "estimated_num_actions": [
+                29.17,
+                2.653507113237121
+            ]
+        },
+        {
+            "worker_name": "AKZ8SFOAI4RZN",
+            "num_actions": 24,
+            "estimated_beta": -4.899999999999999,
+            "estimated_num_actions": [
+                24.65,
+                0.8529361054615991
+            ]
+        },
+        {
+            "worker_name": "A3BUWQ5C39GRQC",
+            "num_actions": 25,
+            "estimated_beta": -3.8999999999999995,
+            "estimated_num_actions": [
+                25.61,
+                1.4553006562219366
+            ]
+        },
+        {
+            "worker_name": "A17GVA0J8BMVAS",
+            "num_actions": 34,
+            "estimated_beta": -1.8999999999999997,
+            "estimated_num_actions": [
+                41.14,
+                6.297650355489736
+            ]
+        },
+        {
+            "worker_name": "A1XATJA7ENOGWB",
+            "num_actions": 35,
+            "estimated_beta": -2.0999999999999996,
+            "estimated_num_actions": [
+                38.34,
+                5.2042674796747335
+            ]
+        },
+        {
+            "worker_name": "AXJ1PE87PD0KK",
+            "num_actions": 26,
+            "estimated_beta": -3.2999999999999994,
+            "estimated_num_actions": [
+                27.43,
+                1.9862275801126115
+            ]
+        },
+        {
+            "worker_name": "A39ROW50DWRRKT",
+            "num_actions": 32,
+            "estimated_beta": -2.1999999999999997,
+            "estimated_num_actions": [
+                36.07,
+                5.308964117414997
+            ]
+        },
+        {
+            "worker_name": "AA4O2W236E3FW",
+            "num_actions": 27,
+            "estimated_beta": -2.8999999999999995,
+            "estimated_num_actions": [
+                29.13,
+                2.79161243728423
+            ]
+        },
+        {
+            "worker_name": "AILDNTO2TWB4A",
+            "num_actions": 26,
+            "estimated_beta": -3.6999999999999993,
+            "estimated_num_actions": [
+                26.0,
+                1.47648230602334
+            ]
+        },
+        {
+            "worker_name": "A39KHMYFO61LKN",
+            "num_actions": 25,
+            "estimated_beta": -3.7999999999999994,
+            "estimated_num_actions": [
+                25.8,
+                1.3638181696985856
+            ]
+        },
+        {
+            "worker_name": "A12ASB8854TT4",
+            "num_actions": 25,
+            "estimated_beta": -3.8999999999999995,
+            "estimated_num_actions": [
+                25.55,
+                1.329473580030833
+            ]
+        },
+        {
+            "worker_name": "A3VAAV7ZCSO7NA",
+            "num_actions": 26,
+            "estimated_beta": -3.1999999999999993,
+            "estimated_num_actions": [
+                27.99,
+                2.3216158166242757
+            ]
+        },
+        {
+            "worker_name": "A10BH9PYCYUKDJ",
+            "num_actions": 39,
+            "estimated_beta": -1.7999999999999998,
+            "estimated_num_actions": [
+                44.65,
+                7.048936089935842
+            ]
+        },
+        {
+            "worker_name": "ACIZKR30ALBE5",
+            "num_actions": 35,
+            "estimated_beta": -2.0999999999999996,
+            "estimated_num_actions": [
+                38.25,
+                5.446788044343198
+            ]
+        },
+        {
+            "worker_name": "A107RJSS561Y7R",
+            "num_actions": 31,
+            "estimated_beta": -2.1999999999999997,
+            "estimated_num_actions": [
+                35.71,
+                4.752462519578667
+            ]
+        },
+        {
+            "worker_name": "A30VLAIIJIG5IS",
+            "num_actions": 31,
+            "estimated_beta": -2.1999999999999997,
+            "estimated_num_actions": [
+                35.89,
+                5.057459836716451
+            ]
+        },
+        {
+            "worker_name": "A3H5HW66S1BKID",
+            "num_actions": 24,
+            "estimated_beta": -4.899999999999999,
+            "estimated_num_actions": [
+                24.42,
+                0.6352952069707435
+            ]
+        },
+        {
+            "worker_name": "A1U7O93JY3WFMU",
+            "num_actions": 27,
+            "estimated_beta": -2.7999999999999994,
+            "estimated_num_actions": [
+                29.59,
+                2.679906714794379
+            ]
+        },
+        {
+            "worker_name": "A1BHR5XQ16T7LA",
+            "num_actions": 25,
+            "estimated_beta": -3.999999999999999,
+            "estimated_num_actions": [
+                25.52,
+                1.3151425778218875
+            ]
+        },
+        {
+            "worker_name": "A1XTU3TVLXMKK1",
+            "num_actions": 26,
+            "estimated_beta": -3.1999999999999993,
+            "estimated_num_actions": [
+                27.69,
+                2.081802103947443
+            ]
+        },
+        {
+            "worker_name": "A1OZPLHNIU1519",
+            "num_actions": 25,
+            "estimated_beta": -3.999999999999999,
+            "estimated_num_actions": [
+                25.5,
+                1.2767145334803705
+            ]
+        }
+    ],
+    "level": "config_B3_C8_P3_D2_97"
+}

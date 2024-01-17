@@ -1,0 +1,197 @@
+{
+    "Platforms": 3,
+    "Displays": 3,
+    "GridSize": {
+        "x": 3,
+        "y": 3
+    },
+    "Containers": [
+        {
+            "name": "box_sqr",
+            "count": 2,
+            "components": [
+                {
+                    "name": "square",
+                    "target": [
+                        [
+                            1,
+                            1
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "box_cir",
+            "count": 2,
+            "components": [
+                {
+                    "name": "circle",
+                    "target": [
+                        [
+                            2,
+                            2
+                        ],
+                        [
+                            2,
+                            3
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "box_tri",
+            "count": 2,
+            "components": [
+                {
+                    "name": "triangle",
+                    "target": [
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "Plan": [
+        [
+            "move_to_station",
+            "box_sqr",
+            "stat1"
+        ],
+        [
+            "unlock_component",
+            "box_sqr",
+            "square"
+        ],
+        [
+            "movebox",
+            "box_cir",
+            "III"
+        ],
+        [
+            "unlock_component",
+            "box_sqr",
+            "square"
+        ],
+        [
+            "place_component",
+            "square",
+            1,
+            1
+        ],
+        [
+            "place_component",
+            "square",
+            1,
+            2
+        ],
+        [
+            "move_from_station",
+            "box_sqr",
+            "II"
+        ],
+        [
+            "move_to_station",
+            "box_cir",
+            "stat1"
+        ],
+        [
+            "unlock_component",
+            "box_cir",
+            "circle"
+        ],
+        [
+            "unlock_component",
+            "box_cir",
+            "circle"
+        ],
+        [
+            "move_from_station",
+            "box_cir",
+            "box_sqr"
+        ],
+        [
+            "move_to_station",
+            "box_tri",
+            "stat1"
+        ],
+        [
+            "unlock_component",
+            "box_tri",
+            "triangle"
+        ],
+        [
+            "place_component",
+            "triangle",
+            1,
+            3
+        ],
+        [
+            "unlock_component",
+            "box_tri",
+            "triangle"
+        ],
+        [
+            "place_component",
+            "triangle",
+            2,
+            1
+        ],
+        [
+            "move_from_station",
+            "box_tri",
+            "I"
+        ],
+        [
+            "place_component",
+            "circle",
+            2,
+            2
+        ],
+        [
+            "place_component",
+            "circle",
+            2,
+            3
+        ],
+        [
+            "movebox",
+            "box_cir",
+            "box_tri"
+        ],
+        [
+            "movebox",
+            "box_sqr",
+            "box_cir"
+        ]
+    ],
+    "Plan_length": 21,
+    "ResourceUse": {
+        "Avg_redundancy": 3.142857142857143,
+        "PlatformUse": {
+            "stat1": 14,
+            "I": 16,
+            "II": 14,
+            "III": 5
+        },
+        "DisplayUse": {
+            "0": 7,
+            "1": 5,
+            "2": 7,
+            "3": 2
+        }
+    },
+    "StatesExplored": 1967
+}

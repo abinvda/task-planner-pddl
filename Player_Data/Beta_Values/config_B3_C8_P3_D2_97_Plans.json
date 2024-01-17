@@ -1,0 +1,164 @@
+{
+    "A17PAQSQ74L915": {
+        "num_actions": 24,
+        "rank_actions": 11.11111111111111,
+        "estimated_beta": -4.899999999999999,
+        "rank_beta": 11.11111111111111
+    },
+    "AKZ8SFOAI4RZN": {
+        "num_actions": 24,
+        "rank_actions": 11.11111111111111,
+        "estimated_beta": -4.899999999999999,
+        "rank_beta": 11.11111111111111
+    },
+    "A3H5HW66S1BKID": {
+        "num_actions": 24,
+        "rank_actions": 11.11111111111111,
+        "estimated_beta": -4.899999999999999,
+        "rank_beta": 11.11111111111111
+    },
+    "A3BUWQ5C39GRQC": {
+        "num_actions": 25,
+        "rank_actions": 29.629629629629626,
+        "estimated_beta": -3.8999999999999995,
+        "rank_beta": 25.925925925925924
+    },
+    "A39KHMYFO61LKN": {
+        "num_actions": 25,
+        "rank_actions": 29.629629629629626,
+        "estimated_beta": -3.7999999999999994,
+        "rank_beta": 29.629629629629626
+    },
+    "A12ASB8854TT4": {
+        "num_actions": 25,
+        "rank_actions": 29.629629629629626,
+        "estimated_beta": -3.8999999999999995,
+        "rank_beta": 25.925925925925924
+    },
+    "A1BHR5XQ16T7LA": {
+        "num_actions": 25,
+        "rank_actions": 29.629629629629626,
+        "estimated_beta": -3.999999999999999,
+        "rank_beta": 18.51851851851852
+    },
+    "A1OZPLHNIU1519": {
+        "num_actions": 25,
+        "rank_actions": 29.629629629629626,
+        "estimated_beta": -3.999999999999999,
+        "rank_beta": 18.51851851851852
+    },
+    "A272X64FOZFYLB": {
+        "num_actions": 26,
+        "rank_actions": 48.148148148148145,
+        "estimated_beta": -3.2999999999999994,
+        "rank_beta": 40.74074074074074
+    },
+    "AXJ1PE87PD0KK": {
+        "num_actions": 26,
+        "rank_actions": 48.148148148148145,
+        "estimated_beta": -3.2999999999999994,
+        "rank_beta": 40.74074074074074
+    },
+    "AILDNTO2TWB4A": {
+        "num_actions": 26,
+        "rank_actions": 48.148148148148145,
+        "estimated_beta": -3.6999999999999993,
+        "rank_beta": 33.33333333333333
+    },
+    "A3VAAV7ZCSO7NA": {
+        "num_actions": 26,
+        "rank_actions": 48.148148148148145,
+        "estimated_beta": -3.1999999999999993,
+        "rank_beta": 48.148148148148145
+    },
+    "A1XTU3TVLXMKK1": {
+        "num_actions": 26,
+        "rank_actions": 48.148148148148145,
+        "estimated_beta": -3.1999999999999993,
+        "rank_beta": 48.148148148148145
+    },
+    "A260V12ZXROJKR": {
+        "num_actions": 27,
+        "rank_actions": 62.96296296296296,
+        "estimated_beta": -2.7999999999999994,
+        "rank_beta": 62.96296296296296
+    },
+    "A2DWSKGD9RNKMJ": {
+        "num_actions": 27,
+        "rank_actions": 62.96296296296296,
+        "estimated_beta": -2.8999999999999995,
+        "rank_beta": 55.55555555555556
+    },
+    "AA4O2W236E3FW": {
+        "num_actions": 27,
+        "rank_actions": 62.96296296296296,
+        "estimated_beta": -2.8999999999999995,
+        "rank_beta": 55.55555555555556
+    },
+    "A1U7O93JY3WFMU": {
+        "num_actions": 27,
+        "rank_actions": 62.96296296296296,
+        "estimated_beta": -2.7999999999999994,
+        "rank_beta": 62.96296296296296
+    },
+    "A212OY08MFDGU3": {
+        "num_actions": 30,
+        "rank_actions": 66.66666666666666,
+        "estimated_beta": -2.3,
+        "rank_beta": 70.37037037037037
+    },
+    "A107RJSS561Y7R": {
+        "num_actions": 31,
+        "rank_actions": 74.07407407407408,
+        "estimated_beta": -2.1999999999999997,
+        "rank_beta": 81.48148148148148
+    },
+    "A30VLAIIJIG5IS": {
+        "num_actions": 31,
+        "rank_actions": 74.07407407407408,
+        "estimated_beta": -2.1999999999999997,
+        "rank_beta": 81.48148148148148
+    },
+    "A9HQ3E0F2AGVO": {
+        "num_actions": 32,
+        "rank_actions": 81.48148148148148,
+        "estimated_beta": -2.3,
+        "rank_beta": 70.37037037037037
+    },
+    "A39ROW50DWRRKT": {
+        "num_actions": 32,
+        "rank_actions": 81.48148148148148,
+        "estimated_beta": -2.1999999999999997,
+        "rank_beta": 81.48148148148148
+    },
+    "A17GVA0J8BMVAS": {
+        "num_actions": 34,
+        "rank_actions": 85.18518518518519,
+        "estimated_beta": -1.8999999999999997,
+        "rank_beta": 96.29629629629629
+    },
+    "AO33H4GL9KZX9": {
+        "num_actions": 35,
+        "rank_actions": 96.29629629629629,
+        "estimated_beta": -2.0999999999999996,
+        "rank_beta": 92.5925925925926
+    },
+    "A1XATJA7ENOGWB": {
+        "num_actions": 35,
+        "rank_actions": 96.29629629629629,
+        "estimated_beta": -2.0999999999999996,
+        "rank_beta": 92.5925925925926
+    },
+    "ACIZKR30ALBE5": {
+        "num_actions": 35,
+        "rank_actions": 96.29629629629629,
+        "estimated_beta": -2.0999999999999996,
+        "rank_beta": 92.5925925925926
+    },
+    "A10BH9PYCYUKDJ": {
+        "num_actions": 39,
+        "rank_actions": 100.0,
+        "estimated_beta": -1.7999999999999998,
+        "rank_beta": 100.0
+    }
+}

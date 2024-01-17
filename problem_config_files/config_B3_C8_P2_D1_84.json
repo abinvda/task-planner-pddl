@@ -1,0 +1,224 @@
+{
+    "Platforms": 2,
+    "Displays": 1,
+    "GridSize": {
+        "x": 3,
+        "y": 3
+    },
+    "Containers": [
+        {
+            "name": "box_tri",
+            "count": 3,
+            "components": [
+                {
+                    "name": "triangle",
+                    "target": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "box_sqr",
+            "count": 2,
+            "components": [
+                {
+                    "name": "square",
+                    "target": [
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            2,
+                            2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "box_cir",
+            "count": 3,
+            "components": [
+                {
+                    "name": "circle",
+                    "target": [
+                        [
+                            1,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            3
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "Plan": [
+        [
+            "move_to_station",
+            "box_cir",
+            "stat1"
+        ],
+        [
+            "unlock_component",
+            "box_cir",
+            "circle"
+        ],
+        [
+            "place_component",
+            "circle",
+            1,
+            1
+        ],
+        [
+            "unlock_component",
+            "box_cir",
+            "circle"
+        ],
+        [
+            "place_component",
+            "circle",
+            2,
+            1
+        ],
+        [
+            "move_from_station",
+            "box_cir",
+            "II"
+        ],
+        [
+            "movebox",
+            "box_sqr",
+            "box_cir"
+        ],
+        [
+            "move_to_station",
+            "box_tri",
+            "stat1"
+        ],
+        [
+            "unlock_component",
+            "box_tri",
+            "triangle"
+        ],
+        [
+            "place_component",
+            "triangle",
+            3,
+            1
+        ],
+        [
+            "unlock_component",
+            "box_tri",
+            "triangle"
+        ],
+        [
+            "place_component",
+            "triangle",
+            1,
+            2
+        ],
+        [
+            "unlock_component",
+            "box_tri",
+            "triangle"
+        ],
+        [
+            "move_from_station",
+            "box_tri",
+            "I"
+        ],
+        [
+            "move_to_station",
+            "box_sqr",
+            "stat1"
+        ],
+        [
+            "place_component",
+            "triangle",
+            3,
+            2
+        ],
+        [
+            "unlock_component",
+            "box_sqr",
+            "square"
+        ],
+        [
+            "place_component",
+            "square",
+            2,
+            2
+        ],
+        [
+            "unlock_component",
+            "box_sqr",
+            "square"
+        ],
+        [
+            "move_from_station",
+            "box_sqr",
+            "box_tri"
+        ],
+        [
+            "move_to_station",
+            "box_cir",
+            "stat1"
+        ],
+        [
+            "place_component",
+            "square",
+            1,
+            3
+        ],
+        [
+            "unlock_component",
+            "box_cir",
+            "circle"
+        ],
+        [
+            "place_component",
+            "circle",
+            2,
+            3
+        ],
+        [
+            "move_from_station",
+            "box_cir",
+            "box_sqr"
+        ]
+    ],
+    "Plan_length": 25,
+    "ResourceUse": {
+        "Avg_redundancy": 1.16,
+        "PlatformUse": {
+            "stat1": 20,
+            "II": 15,
+            "I": 19
+        },
+        "DisplayUse": {
+            "0": 13,
+            "1": 12
+        }
+    },
+    "StatesExplored": 4224845
+}
