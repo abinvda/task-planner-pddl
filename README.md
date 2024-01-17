@@ -1,4 +1,4 @@
-# Optimal task planner for problem defined in Planning Domain Definition Language (PDDL)
+# Optimal task planner for problems defined in Planning Domain Definition Language (PDDL)
 
 This repo provides the necessary code to reproduce the finding presented in the following publication:
 
